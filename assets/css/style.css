@@ -1,0 +1,64 @@
+:root {
+    --raleway: "Raleway", sans-serif;
+    --regular: 400;
+    --bold: 700;
+    --black: #373A3C;
+    --white: white;
+    --blue: #17A2B8;
+    --light-blue: #56C0E0;
+}
+
+* {
+    margin: 0;
+}  
+.os-regular {
+    font-family: var(--raleway);
+    font-weight: var(--regular);
+}  
+.os-bold {
+    font-family: var(--raleway);
+    font-weight: var(--bold);
+}
+.bg-softBlack{
+    background-color: var(--black);
+}
+.bg-softBlue {
+    background-color: var(--blue);
+}
+.border-blue{
+    border: solid 1px var(--blue);
+}
+.c-white {
+    color: var(--white);
+}
+.c-blue {
+    color: var(--blue);
+}
+.c-light-blue {
+    color: var(--light-blue);
+}
+.c-black{
+    color:var(--black);
+}
+.navbar{
+    background-color: #373A3C;
+}
+
+/*custom css*/
+h1{
+    font-size: 70px;;
+}
+.imagePortada{
+    background-image: url(/assets/img/bg-hero.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 630px;
+    width: 100%;
+}
+.card img{
+    width: 387px;
+    height: 232px;
+}
+.card{
+    width: 387px;
+}
