@@ -43,17 +43,15 @@
 .navbar{
     background-color: #373A3C;
 }
-
 /*custom css*/
 h1{
-    font-size: 70px;;
+    font-size: 70px;
 }
 .imagePortada{
     background-image: url(/assets/img/bg-hero.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     height: 630px;
-    width: 100%;
 }
 .card img{
     width: 387px;
